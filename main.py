@@ -31,8 +31,7 @@ def get_info_by_ip(ip='127.0.0.1'):
         
         
 def main():
-    preview_text = Figlet(font='slant')
-    print(preview_text.renderText('IP INFO'))
+    print('Ip Information')
     ip = input('Please enter a target IP: ')
     
     get_info_by_ip(ip=ip)
